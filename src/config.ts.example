@@ -1,0 +1,19 @@
+import { BoltClientOptions } from './lib/structures/BoltClient';
+
+export const config: BoltClientOptions = {
+  prefix: '',
+  ownerID: [''],
+  token: '',
+  lavalink: {
+    userID: '',
+    password: '',
+    hosts: {
+      rest: '',
+      ws: '',
+    },
+  },
+  disableMentions: '',
+  ws: {
+    intents: ['GUILDS', 'GUILD_VOICE_STATES', 'GUILD_MESSAGES'],
+  },
+};
